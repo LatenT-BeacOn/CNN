@@ -13,9 +13,7 @@ The goal is to build a model capable of accurately recognizing digits (0–9) fr
   Real-world handwritten digit images captured by MAYA stored in `assets/`.
 
 
-## Project Structure
 
-<img width="530" height="310" alt="image" src="https://github.com/user-attachments/assets/75d93d55-36ce-4b7f-8e3b-2c331f98b6d2" />
 
 
 ## Model Architecture
@@ -56,6 +54,9 @@ Epoch 10/10 - Loss: 0.0053, Accuracy: 99.83%
 
 A confusion matrix was generated on the MNIST test dataset to analyze per-class performance.
 
+<img width="1019" height="714" alt="Screenshot 2025-12-26 013007" src="https://github.com/user-attachments/assets/7f0a59ff-5251-4a02-b7ef-dae2d8b52428" />
+
+
 
 **Key Observations**
 - Strong recognition for all digits (0–9)
@@ -66,7 +67,9 @@ A confusion matrix was generated on the MNIST test dataset to analyze per-class 
 
 Misclassified samples from the MNIST test set were visualized to understand model limitations.
 
-<img width="760" height="300" alt="image" src="https://github.com/user-attachments/assets/1f0f22cb-199b-46ab-814f-3cfb36cbf918" />
+<img width="1356" height="546" alt="Screenshot 2025-12-26 013019" src="https://github.com/user-attachments/assets/16c53612-48c0-4c5a-9d68-96f79239fd84" />
+
+
 
 **Findings**
 - Misclassifications often occur on poorly written digits or images with unusual stroke patterns.
@@ -78,9 +81,12 @@ The trained model was evaluated on real handwritten images located in the `asset
 
 For each image, the model outputs the **predicted digit** and **confidence score**.
 
-<img width="1140" height="400" alt="image" src="https://github.com/user-attachments/assets/b8c2e3cb-7893-4d5b-b70f-8ceba7f2b8b9" />
+
 
 **Example Output:**
+
+<img width="1203" height="512" alt="Screenshot 2025-12-26 013027" src="https://github.com/user-attachments/assets/b1e0bc5b-245d-49d9-b3d6-553525177eca" />
+
 
 eight.jpeg → Predicted: 8 (Confidence: 37.35%)
 five.jpeg → Predicted: 3 (Confidence: 59.90%)
