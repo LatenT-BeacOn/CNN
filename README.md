@@ -88,9 +88,6 @@ For each image, the model outputs the **predicted digit** and **confidence score
 <img width="1203" height="512" alt="Screenshot 2025-12-26 013027" src="https://github.com/user-attachments/assets/b1e0bc5b-245d-49d9-b3d6-553525177eca" />
 
 
-eight.jpeg → Predicted: 8 (Confidence: 37.35%)
-five.jpeg → Predicted: 3 (Confidence: 59.90%)
-one.jpeg → Predicted: 2 (Confidence: 66.46%)
 
 
 **Observations**
